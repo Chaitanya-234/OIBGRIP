@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit Converter"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+        <Spinner
+            android:id="@+id/unit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:spinnerMode="dropdown" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:text="To"
+        android:textStyle="bold"
+        />
+    <Spinner
+        android:id="@+id/unitts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:spinnerMode="dropdown" />
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/vall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Enter Unit " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Convert"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After Converting Value"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_error"
+        />
+
+    <TextView
+        android:id="@+id/conval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+
+</LinearLayout>
